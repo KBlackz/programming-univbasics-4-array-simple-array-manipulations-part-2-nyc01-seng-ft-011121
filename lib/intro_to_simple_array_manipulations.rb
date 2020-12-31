@@ -4,7 +4,3 @@ def using_concat
 
 
 end
-
-
-
-[ "a", "b" ].concat( ["c", "d"] ) #=> [ "a", "b", "c", "d" ]

@@ -20,3 +20,7 @@ end
 def using_uniq(array)
   array.uniq 
 end  
+
+def using_delete(array, integer)
+  array.delete_at)
+end  

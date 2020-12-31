@@ -4,7 +4,7 @@ require './lib/intro_to_simple_array_manipulations.rb'
 
 describe "using_concat" do 
   before(:each) do 
-    [ "a", "b" ].concat( ["c", "d"] ) #=> [ "a", "b", "c", "d" ]
+    @[ "a", "b" ].concat( ["c", "d"] ) #=> [ "a", "b", "c", "d" ]
     more_favs = ["sports cars", "flatiron school"]
     @all_my_favs = using_concat(@my_favorite_things, more_favs)
   end
@@ -13,7 +13,7 @@ describe "using_concat" do
    end
 
    it "increases the length of the first array" do 
-    expect(["Chihuahua", "Shiba Inu"].length).to be > 2
+    expect(@my_favorite_things.length).to be > 2
    end
 end
 

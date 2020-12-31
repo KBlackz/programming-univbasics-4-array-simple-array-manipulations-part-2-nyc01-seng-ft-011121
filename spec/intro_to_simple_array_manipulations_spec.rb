@@ -4,7 +4,7 @@ require './lib/intro_to_simple_array_manipulations.rb'
 
 describe "using_concat" do 
   before(:each) do 
-    @[ "a", "b" ].concat( ["c", "d"] ) #=> [ "a", "b", "c", "d" ]
+    @my_favorite_things = [ "a", "b" ].concat( ["c", "d"] ) #=> [ "a", "b", "c", "d" ]
     more_favs = ["sports cars", "flatiron school"]
     @all_my_favs = using_concat(@my_favorite_things, more_favs)
   end
